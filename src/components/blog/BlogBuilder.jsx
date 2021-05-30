@@ -9,6 +9,7 @@ class BlogBuilder {
     this.description = description;
   }
 
+  
   addParagraph = (props) => {
     this.list.push(
       <p key={this.list.length} className="lead">
