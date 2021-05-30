@@ -13,4 +13,3 @@ ghpages.publish(
     else console.log("PUBLISHED");
   }
 );
-
