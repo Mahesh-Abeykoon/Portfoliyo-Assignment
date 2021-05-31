@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "MAHESH",
   middleName: "",
   lastName: "ABEYKOON",
-  message: " Passionate about changing the world with technology. ",
+  message: " Technology is best when it brings people together...  ",
   icons: [
     {
       image: "fa-github",
@@ -44,11 +44,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/pic.png"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/profilepic.png"),
+  imageSize: 350,
   message:
     "My name is Mahesh Abeykoon. I’m an undergraduate of University of Sri Jayawardenepura with a degree in ICT. ",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "https://docs.google.com/document/d/1rZwBgj7M6qORm9-yn5pZqM34zwNzf2PuiQRqI_aWCS8/edit#heading=h.yzb2542r9hgf",
 };
 
 // PROJECTS SECTION
@@ -56,6 +56,7 @@ const about = {
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
+
 const repos = {
   show: true,
   heading: "Recent Projects",
@@ -72,18 +73,18 @@ const leadership = {
     "Lorem ipsum dolor, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/1.jpg"), 
+      img: require("../editable-stuff/profilepic.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/1.jpg"), 
+      img: require("../editable-stuff/profilepic.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
   ],
   imageSize: {
-    width:"600",
+    width:"300",
     height:"450"
   }
 };
@@ -95,11 +96,12 @@ const skills = {
   hardSkills: [
    
     { name: "SQL", value: 60 },
-    { name: "React", value: 55 },
+    { name: "Java", value: 80 },
     { name: "HTML/CSS", value: 65 },
+    { name: "React", value: 55 },
     { name: "JavaScript", value: 70 },
     { name: "Data Structures", value: 65 },
-    { name: "Java", value: 80 },
+    
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 75 },
