@@ -12,7 +12,6 @@
   </p>
 </p>
 
-
 [![Site preview](/public/social-image.png)](https://Mah-eshh.github.io/)
 
 ## Table of Contents
