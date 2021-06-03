@@ -11,10 +11,7 @@ const mainBody = {
   lastName: "ABEYKOON",
   message: " Technology is best when it brings people together...  ",
   icons: [
-    {
-      image: "fa-github",
-      url: "https://github.com/Mah-eshh",
-    },
+     
     {
       image: "fa-facebook",
       url: "https://www.facebook.com/Mahesh0Abeykoon/",
@@ -23,7 +20,19 @@ const mainBody = {
       image: "fa-instagram",
       url: "https://www.instagram.com/mahesh/",
     },
- 
+     
+    {
+      image: "fa-github",
+      url: "https://github.com/Mah-eshh",
+    },
+    {
+      image: "fa-google-plus",
+      url: "https://maheshpabeykoon@gmail.com",
+    },
+    {
+      image: "fa-whatsapp",
+      url: "https://maheshpabeykoon@gmail.com",
+    },
   ],
 };
 
@@ -47,7 +56,7 @@ const about = {
   imageLink: require("../editable-stuff/profilepic.png"),
   imageSize: 350,
   message:
-    "My name is Mahesh Abeykoon. I’m an undergraduate of University of Sri Jayawardenepura with a degree in ICT. ",
+    "My name is Mahesh Abeykoon. I’m an undergraduate of University of Sri Jayawardenepura with a degree in ICT. Computers are fast; programmers keep it slow...  ",
   resume: "https://docs.google.com/document/d/1rZwBgj7M6qORm9-yn5pZqM34zwNzf2PuiQRqI_aWCS8/edit#heading=h.yzb2542r9hgf",
 };
 
@@ -58,11 +67,15 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 
 const repos = {
+
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "Mah-eshh", //i.e."johnDoe12Gh"
+  heading: "Github Projects",
+  gitHubUsername: "Mah-eshh", //i.e."mahesh---"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: [
+    
+  ],
+ 
 };
 
 // Leadership SECTION
@@ -104,12 +117,13 @@ const skills = {
     
   ],
   softSkills: [
+    { name: "Creativity", value: 85 },
     { name: "Goal-Oriented", value: 75 },
     { name: "Collaboration", value: 80 },
     { name: "Positivity", value: 70 },
     { name: "Empathy", value: 75 },
     { name: "Organization", value: 75 },
-    { name: "Creativity", value: 85 },
+    
   ],
 };
 
@@ -118,7 +132,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering ! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for part time Software Engineering ! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "maheshpabeykoon@gmail.com",
 };
 
@@ -132,9 +146,9 @@ const experiences = {
     //   date: 'June 2018 – Present',
     // },
     {
-      role: 'Back-End Developer',
+      role: 'Front-End Developer',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2020 – May 2021',
+      date: 'Dec 2020 – May 2021',
     },
   ]
 }

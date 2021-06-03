@@ -5,14 +5,14 @@
 
   <p align="center">
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a>
+    <a href="https://Mah-eshh.github.io">hashirshoaeb.github.io</a>
     <br />
     <br />
-    <a href="https://hashirshoaeb.com">About Me</a>
+    <a href="https://maheshabeykoon.com">About Me</a>
     ·
-    <a href="https://github.com/hashirshoaeb/home/issues">Report Bug</a>
+    <a href="https://github.com/mahesh/home/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hashirshoaeb/home/issues">Request Feature</a>
+    <a href="https://github.com/mahesh/home/issues">Request Feature</a>
   </p>
 </p>
 
@@ -23,7 +23,7 @@
 [![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
 
-[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/)
+[![Site preview](/public/social-image.png)](https://Mah-eshh.github.io/)
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ Dependencies defined in package.json:
 - Navigation bar (optional)
 - Body
   - Name | Profession
-  - Contact / Follow / Find me / Facebook / LinkedIn / GitHub / Instagram / Email / CodePen
+  - Contact / Follow / Find me / Facebook / GitHub / Instagram / Email / 
   - Resume | About me
 - About Me
   - Display picture (optional)
