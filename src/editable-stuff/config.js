@@ -51,8 +51,9 @@ const mainBody = {
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
+  
   show: true,
-  heading: "About Me",
+  heading: "About Me", 
   imageLink: require("../editable-stuff/profilepic.png"),
   imageSize: 350,
   message:
