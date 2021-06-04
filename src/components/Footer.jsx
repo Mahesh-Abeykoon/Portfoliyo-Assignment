@@ -10,7 +10,7 @@ const Footer = (props) => {
         {props.children}
         <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
         <a
-          className="badge badge-warning"
+          className="badge badge-dark"
           rel="noopener"
           href="https://github.com/Mah-eshh"
           aria-label="My GitHub"
