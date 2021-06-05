@@ -29,7 +29,7 @@ const mainBody = {
       image: "fa-google-plus",
       url: "https://maheshpabeykoon@gmail.com",
     },
-
+  
   ],
 };
 
@@ -52,7 +52,7 @@ const about = {
   show: true,
   heading: "About Me", 
   imageLink: require("../editable-stuff/profilepic.png"),
-  imageSize: 330,
+  imageSize: 350,
   message:
     "My name is Mahesh Abeykoon. I’m an undergraduate of University of Sri Jayawardenepura with a degree in ICT. Computers are fast; programmers keep it slow...  ",
   resume: "https://docs.google.com/document/d/1rZwBgj7M6qORm9-yn5pZqM34zwNzf2PuiQRqI_aWCS8/edit#heading=h.yzb2542r9hgf",
@@ -77,28 +77,28 @@ const repos = {
 };
 
 // Leadership SECTION
-// const leadership = {
-//   show: false,
-//   heading: "Leadership",
-//   message: 
-//     "Lorem ipsum dolor, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-//   images: [
-//     { 
-//       img: require("../editable-stuff/profilepic.png"), 
-//       label: "First slide label", 
-//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-//     },
-//     { 
-//       img: require("../editable-stuff/profilepic.png"), 
-//       label: "Second slide label", 
-//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-//     },
-//   ],
-//   imageSize: {
-//     width:"300",
-//     height:"450"
-//   }
-// };
+const leadership = {
+  show: false,
+  heading: "Leadership",
+  message: 
+    "Lorem ipsum dolor, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  images: [
+    { 
+      img: require("../editable-stuff/profilepic.png"), 
+      label: "First slide label", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    },
+    { 
+      img: require("../editable-stuff/profilepic.png"), 
+      label: "Second slide label", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    },
+  ],
+  imageSize: {
+    width:"300",
+    height:"450"
+  }
+};
 
 // SKILLS SECTION
 const skills = {
@@ -134,26 +134,26 @@ const getInTouch = {
   email: "maheshpabeykoon@gmail.com",
 };
 
-// const experiences = {
-//   show: false,
-//   heading: "Experiences",
-//   data: [
-//     // {
-//     //   role: 'Software Engineer',// Here Add Company Name
-//     //   companylogo: require('../assets/img/dell.png'),
-//     //   date: 'June 2018 – Present',
-//     // },
-//     {
-//       role: 'Front-End Developer',
-//       companylogo: require('../assets/img/boeing.png'),
-//       date: 'Dec 2020 – May 2021',
-//     },
-//   ]
-// }
+const experiences = {
+  show: false,
+  heading: "Experiences",
+  data: [
+    // {
+    //   role: 'Software Engineer',// Here Add Company Name
+    //   companylogo: require('../assets/img/dell.png'),
+    //   date: 'June 2018 – Present',
+    // },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/boeing.png'),
+      date: 'Dec 2020 – May 2021',
+    },
+  ]
+}
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, getInTouch };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
