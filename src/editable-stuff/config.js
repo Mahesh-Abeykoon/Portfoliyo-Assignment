@@ -29,10 +29,7 @@ const mainBody = {
       image: "fa-google-plus",
       url: "https://maheshpabeykoon@gmail.com",
     },
-    {
-      image: "fa-whatsapp",
-      url: "https://maheshpabeykoon@gmail.com",
-    },
+    
   ],
 };
 
